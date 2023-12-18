@@ -88,7 +88,37 @@ body {
     cursor: pointer;
 }
 
-.odading .row .odading-img {}
+.kedai-kopi-link,
+.link2 {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    top: 2rem;
+    left: 18rem;
+
+    text-align: center;
+    padding: 1.2rem 1rem;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.odading .row a {
+    color: #010101;
+}
+
+.link2 {
+    top: 2rem;
+    left: 25rem;
+
+    width: 2rem;
+    height: 2rem;
+    padding: .8rem 0 0;
+    font-size: .5rem;
+}
+
+/* .odading .row .odading-img {} */
 
 .odading .row .odading-img img {
 
@@ -120,7 +150,7 @@ body {
     max-width: 40%;
 
     right: 6rem;
-    top: 40%;
+    top: 38%;
 }
 
 .odading .row .odading-content h3 {
